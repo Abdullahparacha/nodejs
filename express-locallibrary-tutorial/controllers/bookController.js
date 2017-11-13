@@ -28,6 +28,8 @@ exports.index = function(req, res) {
     });
 };
 
+
+// here you have to declare all the method that you want use
 exports.book_create_post= function(req, resp){
   
    console.log('book is create');   
