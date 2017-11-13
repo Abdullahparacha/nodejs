@@ -29,9 +29,15 @@ exports.index = function(req, res) {
 };
 
 
-// here you have to declare all the method that you want use
-exports.book_create_post= function(req, resp){
-  
-   console.log('book is create');   
-   res.send('100');
+exports.book_create_post= function(req, res){ 
+   console.log('book is create'); 
+   console.log('you have to implement this function on your own')
+   console.log('its implementation is also given in express mdn from where you are studying now')  
+   res.end();
 }
+exports.book_delete_get= function(req, res){ 
+    console.log('book is create');   
+    console.log('you have to implement this function on your own')
+    console.log('its implementation is also given in express mdn from where you are studying now')  
+   res.end();
+ }
